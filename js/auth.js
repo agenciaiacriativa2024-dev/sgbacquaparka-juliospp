@@ -5,7 +5,7 @@ import {
     signOut, 
     onAuthStateChanged as onFirebaseAuthStateChanged 
 } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js";
-import { auth } from './firebase-config.js';
+import { auth } from './firebase-config-frontend.js';
 
 /**
  * Attempts to log in a user with email and password.
