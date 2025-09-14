@@ -73,4 +73,27 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+
+    // Handle dashboard button clicks
+    const manageUsersBtn = document.getElementById('manage-users-btn');
+    const managePassportsBtn = document.getElementById('manage-passports-btn');
+    const managePlansBtn = document.getElementById('manage-plans-btn');
+
+    if (manageUsersBtn) {
+        manageUsersBtn.addEventListener('click', () => {
+            alert('Gerenciar Usuários: Funcionalidade ainda não implementada.');
+        });
+    }
+
+    if (managePassportsBtn) {
+        managePassportsBtn.addEventListener('click', () => {
+            alert('Gerenciar Passaportes: Funcionalidade ainda não implementada.');
+        });
+    }
+
+    if (managePlansBtn) {
+        managePlansBtn.addEventListener('click', () => {
+            alert('Gerenciar Planos: Funcionalidade ainda não implementada.');
+        });
+    }
 });
